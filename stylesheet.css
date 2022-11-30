@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url("../professionalprofile/Illustrations/Screenshot\ 2022-11-24\ at\ 19.16.10.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-attachment:local;
+    background-position-x: -8%;
+}
+
+#navBar {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    margin-left: 35%;
+    margin-bottom: 0%;
+    display:block;
+    font-size: 40px;
+}
+
+
+#navigation {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 0x;
+    margin-left: 73%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#intro {
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+#intro p {
+    margin-top: 9px;
+}
+
+#gridContainer {
+    margin: 0px;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 0;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    place-items: center;
+}
+
+.gridBlock {
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;  
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+#illustration h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+#illustration {
+    border: 0px solid black;
+    margin: 0rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+#illustration p {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+#illustration img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: inline-block;
+
+    /* border: 1px solid red; */
+    padding: 0.5rem 0.5rem;
+    vertical-align: middle;
+}
+
+#illustration .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    max-width: 100%;
+    padding: 0px 0px;
+    /* border: 1px solid black; */
+    margin: 0rem;
+    padding: 0rem 0rem;
+    text-align: center;
+  }
+
+
